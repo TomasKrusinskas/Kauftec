@@ -1,0 +1,17 @@
+.footer {
+  color: white;
+}
+.spinning-image {
+  display: block;
+  margin: auto;
+  animation: horizontal-spin 3s linear infinite;
+}
+
+@keyframes horizontal-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
